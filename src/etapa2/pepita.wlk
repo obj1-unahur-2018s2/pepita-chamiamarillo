@@ -1,4 +1,4 @@
-import comidas.* // llevanta todo lo que esta en el archivo comidas o puedo especificar
+import comidas.* // levanta todo lo que esta en el archivo comidas o puedo especificar
 //que traer
 
 /*
