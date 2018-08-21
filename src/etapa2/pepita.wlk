@@ -1,4 +1,5 @@
-import comidas.* // levanta todo lo que esta en el archivo comidas o puedo especificar
+import comidas.* 
+// levanta todo lo que esta en el archivo comidas o puedo especificar
 //que traer
 
 /*
@@ -22,9 +23,9 @@ object pepita {
 	}
 	
 	method salirAComer() {
-		self.volar(5)		// "self" es una referencia al objeto que recibe el mensaje
-		// ... completar este metodo con las otra acciones sobre self
-	
+		self.volar(5)		    // "self" es una referencia al objeto que recibe el mensaje
+		self.comer(alpiste,80)  // ... completar este metodo con las otra acciones sobre self
+		self.volar(5)
 	}
 	
 	method haceLoQueQuieras() { 
