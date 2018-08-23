@@ -11,5 +11,7 @@ object pepita {
 	var energia = 0
 	method energia() { return energia }
 	method comer(cosa, gramos) { energia += cosa.energiaPorGramo() * gramos }
-	method visitarDestinos(lugar) { energia += lugar.energiaDestino() } // lugar no se define es medio jipi tener en cuenta
+	method visitar(lugar) { energia += lugar.energiaDestino() } // lugar no se define es medio jipi tener en cuenta
 }
+
+

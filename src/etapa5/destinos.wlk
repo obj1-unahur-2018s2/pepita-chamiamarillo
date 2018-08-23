@@ -15,10 +15,10 @@ object marDelPlata {
 	const tAlta = -20
 	const tBaja = 80
 	
-	method energiaPorTemporada(){
-		+ (if (temporadaAlta) {tAlta} else {tBaja} )	
+	method energiaDestino(){
+		+ (if (temporadaAlta) {return tAlta} else {return tBaja} )	
 	}	
 	
-	method ponerTemporadaAlta() {temporadaAlta=true}
-	
+	method alta() {temporadaAlta=true}
 }
+
