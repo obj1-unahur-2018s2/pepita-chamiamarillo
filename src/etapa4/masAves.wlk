@@ -1,8 +1,10 @@
+import roque.*
 
 object pepon {
-	// aca falta un atributo
+	var energia = 0
 	
-	method comer(cosa, cuanto) { }  // implementar
+	method energia() { return energia}
+	method comer(cosa, cuanto) { energia += cosa.energiaPorGramo() /2 * cuanto	}  // implementar
 	method volar(kms) { }           // implementar
 	method haceLoQueQuieras() { }   // implementar
 }
