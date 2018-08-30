@@ -19,7 +19,12 @@ object pipa {
 	method comer(cosa, cuanto) { gramos += cuanto }
 	method volar(kms) { kmsR += kms}
 	method haceLoQueQuieras() { }   // queda asi
-	// pregunta: ¿por qué es necesario agregar este método, sin código
+	// pregunta: 
+	//  ¿por qué es necesario agregar este método, sin código
+	/* respuesta:
+	 * 	porque si no, se rompe cuando roque quiera entrenar a Pipa.
+	 * 	Pipa debe ser polimorfica con las otras aves. 
+	 */ 
 	method kmsRecorridos(){ return kmsR }
 	method gramosIngeridos(){ return gramos }
 }

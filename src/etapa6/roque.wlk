@@ -11,9 +11,10 @@ object roque {
 	
 	method tuPupiloEs(ave) { pupilo=ave } 
 	method entrenar() { 
-		pupilo.volar(30)
-		pupilo.comer(alpiste,30)
+		pupilo.volar(10)
+		pupilo.comer(alpiste,300)
 		pupilo.volar(5)
 		pupilo.haceLoQueQuieras()
-	} 
+	}
+	method pupiloActual() { return pupilo} 
 }
